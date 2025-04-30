@@ -1,0 +1,90 @@
+.podcast {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+
+  .top {
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 50px 0;
+  }
+  
+  .top img {
+    width: 250px;
+  }
+  
+  .group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .img-group {
+    width: 50%;
+  }
+  
+  .img-group img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  
+  .table-group {
+    width: 40%;
+  }
+  
+  .table-group table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-group .head {
+    background-color: #f5f5f5;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .table-group td {
+    padding: 16px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+  }
+
+  .table-group p{
+    margin-top: 10px;
+
+  }
+  
+  .label {
+    font-weight: bold;
+    width: 30%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .bottom .title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: auto;
+    background-color: #f0f0f0;
+  }
+
+  }
+    
